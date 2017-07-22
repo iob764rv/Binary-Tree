@@ -9,7 +9,7 @@ public class NodeInTree {
     NodeInTree leftNode;// left child
     NodeInTree rightNode;// right child
     
-    NodeInTree (int a){//constructor
+    NodeInTree (int a){//constr
         this.value=a;
     
     }
