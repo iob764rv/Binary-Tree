@@ -40,5 +40,8 @@ public class Tree {
             }
         }
     }
+      public void traverseTree(NodeInTree tree){
+    
+    }
     
 }
