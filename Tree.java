@@ -21,7 +21,6 @@ public class Tree {
             System.out.println(node2.value);
             traverseTree(node2.rightNode);
         }
-    
     }
     public void addToTree(int value){//adding nodes to the tree
         NodeInTree node= new NodeInTree(value);
