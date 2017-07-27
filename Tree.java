@@ -46,8 +46,7 @@ public class Tree {
                             return;//exit loop
                         }
                     }
+                }
             }
         }
     }
-    
-}
