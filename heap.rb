@@ -1,3 +1,4 @@
+
 def swap(index1, index2, heap)
   return heap
 end
@@ -17,9 +18,9 @@ end
 def addToHeap(value, heap)
 
   if heap.to_a.empty?
-		heap[0]=value #root node
+     heap[0]=value #root node
   else
 
-	end
+  end
 
 end
