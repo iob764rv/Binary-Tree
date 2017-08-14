@@ -1,5 +1,8 @@
 
-def swap(index1, index2, heap) #swap nodes 
+def swap(index1, index2, heap)#swap indexes
+  temp=heap[index1]
+  heap[index1]=heap[index2]
+  heap[index2]=temp
   return heap
 end
 
