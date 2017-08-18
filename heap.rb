@@ -25,16 +25,15 @@ def addToHeap(value, heap)#value is being added to heap
   else
     i=0
     while i < heap.length+1 do
-
+	    
       unless (heap[i] rescue false) #checks for null value
         heap[i]=value
         puts "value was #{value}"
       return
       end
-
       i += 1
     end
 
-	end
+  end
 
 end
