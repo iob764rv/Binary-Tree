@@ -18,12 +18,23 @@ def leftLeaf(index)
     return 2*index+1
 end
 
-def addToHeap(value, heap)
+def addToHeap(value, heap)#value is being added to heap
 
   if heap.to_a.empty?
-     heap[0]=value #root node
+		heap[0]=value #root node
   else
+    i=0
+    while i < heap.length+1 do
 
-  end
+      unless (heap[i] rescue false) #checks for null value
+        heap[i]=value
+        puts "value was #{value}"
+      return
+      end
+
+      i += 1
+    end
+
+	end
 
 end
