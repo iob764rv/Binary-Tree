@@ -21,7 +21,7 @@ end
 def addToHeap(value, heap)#value is being added to heap
 
   if heap.to_a.empty?
-		heap[0]=value #root node
+    heap[0]=value #root node
   else
     i=0
     while i < heap.length+1 do
