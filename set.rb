@@ -6,7 +6,9 @@ def capital()
   
   puts "Key of #{randomKey}"
   #num= answer.gsub(//,'')
-
+  #if num==0
+  #else
+  #end
 end
 
 capital()
