@@ -4,7 +4,7 @@ def capital()
   keys=listCities.keys
   randomKey=keys[rand(0..listCities.size-1)]
   
-  puts "Key of #{}"
+  puts "Key of #{randomKey}"
 
 end
 
