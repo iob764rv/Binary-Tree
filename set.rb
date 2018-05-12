@@ -6,10 +6,14 @@ def capital()
   
   puts "Key of #{randomKey}"
   answer = gets
-  num= answer.gsub(//,'',[,!@#$%^&*()-=_+)
-  #if num==0
-  #else
-  #end
+  num= answer.gsub(//,'',[,!@#$%^&*()-=_+|;':".<>?']/,'').chomp.casecmp listCities[randomKey]
+  
+  if num==0
+    puts "True"
+  else
+    puts "False"
+    puts "#{listCities[randomKey]}"
+  end
 end
 
 capital()
