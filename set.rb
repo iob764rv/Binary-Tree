@@ -5,7 +5,8 @@ def capital()
   randomKey=keys[rand(0..listCities.size-1)]
   
   puts "Key of #{randomKey}"
-  #num= answer.gsub(//,'')
+  answer = gets
+  num= answer.gsub(//,'',[,!@#$%^&*()-=_+)
   #if num==0
   #else
   #end
